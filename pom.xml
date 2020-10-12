@@ -23,6 +23,7 @@
     <modules>
         <module>bbs-user</module>
         <module>bbs-api</module>
+        <module>bbs-topic</module>
     </modules>
 
     <dependencies>
