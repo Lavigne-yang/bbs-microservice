@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bbs-user</artifactId>
+    <artifactId>bbs-reply</artifactId>
+
 
     <dependencies>
         <dependency>
@@ -29,11 +30,6 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.yc.bbs</groupId>
-            <artifactId>bbs-security</artifactId>
         </dependency>
     </dependencies>
 

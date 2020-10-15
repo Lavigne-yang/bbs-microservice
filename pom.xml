@@ -24,6 +24,9 @@
         <module>bbs-user</module>
         <module>bbs-api</module>
         <module>bbs-topic</module>
+        <module>bbs-board</module>
+        <module>bbs-reply</module>
+        <module>bbs-security</module>
     </modules>
 
     <dependencies>
@@ -89,8 +92,25 @@
             </dependency>
 
             <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.3.3.RELEASE</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.yc.bbs</groupId>
                 <artifactId>bbs-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>2.1.17.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yc.bbs</groupId>
+                <artifactId>bbs-security</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 

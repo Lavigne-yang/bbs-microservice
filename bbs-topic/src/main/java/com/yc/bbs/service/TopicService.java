@@ -1,4 +1,4 @@
-package com.yc.bbs.topic.service;
+package com.yc.bbs.service;
 
 import com.yc.bbs.bean.Topic;
 

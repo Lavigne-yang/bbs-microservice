@@ -1,7 +1,7 @@
-package com.yc.bbs.topic.controller;
+package com.yc.bbs.controller;
 
-import com.yc.bbs.bean.Topic;
-import com.yc.bbs.topic.service.TopicService;
+import com.yc.bbs.bean.Reply;
+import com.yc.bbs.service.ReplyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,15 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("topic")
-public class TopicController {
+@RequestMapping("reply")
+public class ReplyController {
 
     @Autowired
-    private TopicService topicService;
+    private ReplyService replyService;
 
     @GetMapping("findAll")
-    public List<Topic> findAll(){
-        return topicService.findAll();
+    public List<Reply> findAll(){
+
+        return replyService.findAll();
     }
 }
 

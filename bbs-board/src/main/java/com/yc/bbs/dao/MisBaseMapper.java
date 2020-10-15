@@ -1,4 +1,4 @@
-package com.yc.bbs.topic.dao;
+package com.yc.bbs.dao;
 
 import tk.mybatis.mapper.common.BaseMapper;
 import tk.mybatis.mapper.common.ExampleMapper;

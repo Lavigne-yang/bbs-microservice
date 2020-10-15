@@ -1,7 +1,8 @@
-package com.yc.bbs.topic.service;
+package com.yc.bbs.service;
+
 
 import com.yc.bbs.bean.Topic;
-import com.yc.bbs.topic.dao.TopicMapper;
+import com.yc.bbs.dao.TopicMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

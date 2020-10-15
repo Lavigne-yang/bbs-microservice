@@ -1,4 +1,4 @@
-package com.yc.bbs.topic.dao;
+package com.yc.bbs.dao;
 
 import com.yc.bbs.bean.Topic;
 import org.apache.ibatis.annotations.Mapper;
